@@ -1,3 +1,7 @@
 Revision history for Perl-Critic-Sepp
 
+{{$NEXT}}
+          Updated the distribution
 
+0.001  Fri Jul 20 16:39:11 CEST 2012
+       Initial Release.
