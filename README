@@ -1,0 +1,34 @@
+NAME
+    Perl::Critic::Sepp - Custom set of policies for Perl::Critic.
+
+SYNOPSIS
+    Perl::Critic::Sepp provides a few custom policies for Perl::Critic
+
+    which aim to assist you in writing friendly perl code. :-)
+
+DESCRIPTION
+    Perl::Critic::Sepp provides the following policies:
+
+    Perl::Critic::Policy::Sepp::ProhibitCodeTagComments
+        Don't permit code tags like FIXME, TODO... in your code. [Default
+        severity: 4]
+
+    Perl::Critic::Policy::Sepp::ProhibitUselessAssignment
+        Prevent redundant assignments/initializations. [Default severity: 2]
+
+    Perl::Critic::Policy::Sepp::RequirePerlVersion
+        Require at least the specified version of perl. [Default severity:
+        1]
+
+    Perl::Critic::Policy::Sepp::ProhibitNoPlan
+        Think ahead when writing tests. [Default severity: 4]
+
+AUTHOR
+    Sebastian Stumpf <sepp@perlhacker.org>
+
+COPYRIGHT & LICENSE
+    Copyright 2011-2012 Sebastian Stumpf.
+
+    This library is free software; you can redistribute it and/or modify it
+    under the same terms as Perl itself.
+

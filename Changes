@@ -1,6 +1,9 @@
 Revision history for Perl-Critic-Sepp
 
 {{$NEXT}}
+          Added missing README.
+
+1.122020  2012-07-20 17:08:54 Europe/Berlin
           Updated the distribution
 
 0.001  Fri Jul 20 16:39:11 CEST 2012
